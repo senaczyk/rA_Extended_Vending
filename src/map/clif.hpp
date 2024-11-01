@@ -1253,4 +1253,7 @@ void clif_macro_reporter_status(map_session_data &sd, e_macro_report_status styp
 
 void clif_dynamicnpc_result( map_session_data& sd, e_dynamicnpc_result result );
 
+/// Extended Vending [Lilith]
+int clif_vend(struct map_session_data *sd, int skill_lv);
+
 #endif /* CLIF_HPP */
